@@ -1,16 +1,22 @@
-4th January
+3rd January 1800 - 0100
 Set up repository of enumerables exercises to learn about switches, any? all?
 
+Complete all enumerable excersies
 
-5th January
+Focus on Built in types - Array, blocks, adding/removing/iterating through elements, hashes - keep doing excercises to familiarise myself
+
+4th January 1800 - 0200
 Focus on background of built in datatypes, object, classes, methods
 defining methods, http://ruby-for-beginners.rubymonstas.org/blocks/arguments.html
 
-revisit tea-shops to understand the difference between local variables (most common) and instance variables (@)
+Revisit tea-shops to understand the difference between local variables (most common) and instance variables (@) --> UNderstanding Lucas' PR comment about dropping @
 
 Skimmed through The Ruby Programming language again from beginning to end with no concern if I don't understand everything. Big picture is important for reference
 
+7th January 1800 - 0100
+Finished the Ruby Language book with written notes on ninja github
 
-7th January
-Finished the Ruby Language book with written notes
+Complete Chapter 7 excercises in Ruby language book for Classes and Modles - further research on how modules are written in Ruby - filling out Alex's task notes
+
+
 
