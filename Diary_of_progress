@@ -9,7 +9,7 @@ Focus on Built in types - Array, blocks, adding/removing/iterating through eleme
 Focus on background of built in datatypes, object, classes, methods
 defining methods, http://ruby-for-beginners.rubymonstas.org/blocks/arguments.html
 
-Revisit tea-shops to understand the difference between local variables (most common) and instance variables (@) --> UNderstanding Lucas' PR comment about dropping @
+Revisit tea-shops to understand the difference between local variables (most common) and instance variables (@) --> Understanding Lucas' PR comment about dropping @
 
 Skimmed through The Ruby Programming language again from beginning to end with no concern if I don't understand everything. Big picture is important for reference
 
