@@ -4,9 +4,8 @@ class Point
     @x, @y = x, y
   end
 
-
   def to_s #return a string that represents this point
-    "(#@x, #@y)" #interpolate the instance variables into the string
+   "(#{x}, #{y})" #interpolate the instance variables into the string
   end
 end
 
