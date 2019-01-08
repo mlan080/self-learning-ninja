@@ -10,6 +10,5 @@ class Point
 end
 
 p = Point.new(1,2)
-puts p #returns an object without the to_s method - why?
-
+puts p,q #returns string of object by passing through the to_s method
 
