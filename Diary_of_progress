@@ -25,6 +25,10 @@ Update my wiki with Alex's tasks
 
 Modules, how to use them - do examples - think about how it applies to CMS
 
+9th January 1700 - 0100
+Instance variable has @ but in tea-shops we've used attr_accesor :id so in to_json we use the { id: id } in our hash?
 
+JSON parsing and generate/to_json why does my tea-shops method not test to_json? attempt to test it using my code -
 
+Assigned myself the tea-shops issue 50 Make create method return shop object instead of intege
 
