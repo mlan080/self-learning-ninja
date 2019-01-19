@@ -40,6 +40,15 @@ Columbus docker set up guide - Goal - find the old cms pages and make a list for
 
 16th January 0700 - 1100
 
+17th January 1500  1200
+Mission  - access the database using Psequel
+
+Why use SSH tunneling?
+- use SSH to encrypt the network connection between clients and Postgres server
+- forward a port from local machine to port in the remote server
+Ways to connect remotely to postgres
+
+
 
 
 
