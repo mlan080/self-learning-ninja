@@ -60,6 +60,12 @@ i18n - Internationalization API translating for app into a single custom languag
 
 Ask for next missions and update wikis every day - Sandi Metz book tonight
 
+28th January diary
+
+i18n - Internationalization API translating for app into a single custom language otehr than english for providing multi language support.
+
+Ask for next missions and update wikis every day - Sandi Metz book tonight
+
 28th January
 Mission: Change the uniq method from uniq agencies to  I wrote into uniq internally booked items agencies, so we focus on the order item instead of the order agency. This is due to the fact that OBB is both inclick and outclick.
 
