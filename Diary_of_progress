@@ -48,7 +48,23 @@ Why use SSH tunneling?
 - forward a port from local machine to port in the remote server
 Ways to connect remotely to postgres
 
+23rd of January
+Productive day yesterday of completing CMS small changes and Bianka's task.
+Today, deep resarch into this email invoicing.
 
+Goal: The text should render the lines for online and mobile ticket for unique agency profiles
+currently: Rendering the lines for online/mobile for each agency profile it detects. There's 2 order items (to and return)
+COMPLETED! with self questions on github
+
+i18n - Internationalization API translating for app into a single custom language otehr than english for providing multi language support.
+
+Ask for next missions and update wikis every day - Sandi Metz book tonight
+
+28th January
+Mission: Change the uniq method from uniq agencies to  I wrote into uniq internally booked items agencies, so we focus on the order item instead of the order agency. This is due to the fact that OBB is both inclick and outclick.
+
+Mission2: create newsletter in HTML form
+Hardship - I can't get the subscription mailer to parse the confirm.html.haml instead of the confirm.erb text file. I cannot find where it is specified which view to render. Lucas informed me that in the background, Rails will render whatever name is 'confirm' so by changing the name of the text file, and specifying in the Newsletter subscription model to deliver_now instead of later, we can see the errors immediately instead of queuing it with sidekiq
 
 
 
