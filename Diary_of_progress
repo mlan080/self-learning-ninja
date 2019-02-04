@@ -103,6 +103,7 @@ Good to check the link has the specific URL - could see if the HTML element has 
 
 I felt very sad about not celebrating CNY that I was always trying too hard to get people together
 
+
  k -n mandy set image deployment/columbus nginx=fromatob/columbus-nginx:footer-githubimageandy set image deployment/col
 umbus nginx=fromatob/columbus-nginx:footer-githubimage
 
