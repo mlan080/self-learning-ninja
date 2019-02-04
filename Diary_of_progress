@@ -66,5 +66,26 @@ Mission: Change the uniq method from uniq agencies to  I wrote into uniq interna
 Mission2: create newsletter in HTML form
 Hardship - I can't get the subscription mailer to parse the confirm.html.haml instead of the confirm.erb text file. I cannot find where it is specified which view to render. Lucas informed me that in the background, Rails will render whatever name is 'confirm' so by changing the name of the text file, and specifying in the Newsletter subscription model to deliver_now instead of later, we can see the errors immediately instead of queuing it with sidekiq
 
+29th January
+Today was hard. My creating image failed on deployment and I blocked the deployment pipeline felt quite amateur.
+
+I reran and it deloyed. Just keep up the good work and move on from it.
+
+Aim: Complete the HAML DOI email - copy the formatting of the code and refactor it with the right links. Better to have the final product and backtrack
+
+keep up the testing
+
+4th Feb
+Andrei came up with a footer link problem for lab.fromatob.com we found that a few links were being redirected to columbus legacy pages. So we had two solutions:
+1. Set up components for CMS template for lab.fromatob.com with all the links
+2. Add new server under nginx.config and redirect all links from lab.de to fromabto.de
+
+I went with the second option - setting the path to = / and / which catches all other pages, then rewrite both to fromatob.de
+
+I tried to test this with nginx but had to install this then figure out the command for testing. There's already an iamge for this so I just ran
+
+`Docker build images/columbus-nginx' and it would be better than pushing to circle CI to build and fail many times.
+
+Good job for taking on Andrei's project and being not fearful of testing.
 
 
