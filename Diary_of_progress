@@ -88,4 +88,16 @@ I tried to test this with nginx but had to install this then figure out the comm
 
 Good job for taking on Andrei's project and being not fearful of testing.
 
+5th Feb
+Happy chinese new year!!
 
+byebug inside rspec, subject.body inside terminal to see the content.
+
+Good to check the link has the specific URL - could see if the HTML element has the right ID to see if the URL
+
+I felt very sad about not celebrating CNY that I was always trying too hard to get people together
+
+ k -n mandy set image deployment/columbus nginx=fromatob/columbus-nginx:footer-githubimageandy set image deployment/col
+umbus nginx=fromatob/columbus-nginx:footer-githubimage
+
+This is for my staging
