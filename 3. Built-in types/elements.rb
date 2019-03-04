@@ -33,7 +33,7 @@ puts values
 #use the identifier 'number' to access elements
 primes = [3, 11, 43, 683, 2731]
 primes.each do |number|
-  puts number
+  puts number[3]
 end
 
 primes = [3, 11, 43, 683, 2731]
