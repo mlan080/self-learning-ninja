@@ -17,11 +17,11 @@ raise_and_rescue
 
 #EG. 2
 
-why do we need to put this raise inside a do block if it raises itself?
+#why do we need to put this raise inside a do block if it raises itself?
 begin
   raise 'No method error loser'
 
-EG. 3
+#EG. 3
 
 begin
 1/0
@@ -37,8 +37,4 @@ rescue ArgumentError => e
   puts e.message
 end
 
-#EG 5 Own error class
-class PermissionDeniedError < StandardError
-  end
 
-  raise PermissionDeniedError.new()
