@@ -1,0 +1,41 @@
+*Basic*
+
+Go syntax
+Packages
+Download and storing package code
+Types
+Variables
+Package Variables
+Functions
+Multiple return values
+Error return values
+
+Flow control
+Loops
+If statements
+Switch statements
+
+Data structures
+Creating slices
+Accessing slices
+Maps
+
+Custom types
+Methods
+structs
+Interfaces
+
+Concurrency
+Go routines and channels
+
+Testing with the standard-library `testing` package
+- Go tooling: golint, go vet, go mod
+- HTTP (server & client) and JSON (parsing & generating)
+- gRPC (https://grpc.io/)
+- Redis
+- Google Cloud Memorystore
+
+*Intermediate*
+- Integrating with Prometheus for monitoring
+- Build & deployment with Google Cloud Build, Container Registry and Kubernetes
+- Integrating with Bugsnag
