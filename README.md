@@ -60,3 +60,4 @@ Static methods
 Use modules to share class methods
 Use modules to share instance methods
 
+# self-learning-ninja2
