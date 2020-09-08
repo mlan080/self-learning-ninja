@@ -1,0 +1,127 @@
+3rd January 1800 - 0100
+Set up repository of enumerables exercises to learn about switches, any? all?
+
+Complete all enumerable excersies
+
+Focus on Built in types - Array, blocks, adding/removing/iterating through elements, hashes - keep doing excercises to familiarise myself
+
+4th January 1800 - 0200
+Focus on background of built in datatypes, object, classes, methods
+defining methods, http://ruby-for-beginners.rubymonstas.org/blocks/arguments.html
+
+Revisit tea-shops to understand the difference between local variables (most common) and instance variables (@) --> Understanding Lucas' PR comment about dropping @
+
+Skimmed through The Ruby Programming language again from beginning to end with no concern if I don't understand everything. Big picture is important for reference
+
+7th January 1800 - 0200
+Finished the Ruby Language book with written notes on ninja github
+
+Complete Chapter 7 excercises in Ruby language book for Classes and Modles - further research on how modules are written in Ruby - filling out Alex's task notes
+
+8th January 1700 - 1200
+Instance variables Lucas' PR string interpolation --> do another example to fully understand the conccept
+
+Update my wiki with Alex's tasks
+
+Modules, how to use them - do examples - think about how it applies to CMS
+
+9th January 1700 - 0100
+Instance variable has @ but in tea-shops we've used attr_accesor :id so in to_json we use the { id: id } in our hash?
+
+JSON parsing and generate/to_json why does my tea-shops method not test to_json? attempt to test it using my code -
+
+Assigned myself the tea-shops issue 50 Make create method return shop object instead of intege
+
+15th January 1600 - 0200
+set up whatsapp and newsletter URL - deploy
+- feeling jetlagged in Singapore so will try to catch short bursts of productivity. Forgive myself for the small stupid mistakes in deploying
+
+Columbus docker set up guide - Goal - find the old cms pages and make a list for Mieke
+
+16th January 0700 - 1100
+
+17th January 1500  1200
+Mission  - access the database using Psequel
+
+Why use SSH tunneling?
+- use SSH to encrypt the network connection between clients and Postgres server
+- forward a port from local machine to port in the remote server
+Ways to connect remotely to postgres
+
+23rd of January
+Productive day yesterday of completing CMS small changes and Bianka's task.
+Today, deep resarch into this email invoicing.
+
+Goal: The text should render the lines for online and mobile ticket for unique agency profiles
+currently: Rendering the lines for online/mobile for each agency profile it detects. There's 2 order items (to and return)
+COMPLETED! with self questions on github
+
+i18n - Internationalization API translating for app into a single custom language otehr than english for providing multi language support.
+
+Ask for next missions and update wikis every day - Sandi Metz book tonight
+
+28th January diary
+
+i18n - Internationalization API translating for app into a single custom language otehr than english for providing multi language support.
+
+Ask for next missions and update wikis every day - Sandi Metz book tonight
+
+28th January
+Mission: Change the uniq method from uniq agencies to  I wrote into uniq internally booked items agencies, so we focus on the order item instead of the order agency. This is due to the fact that OBB is both inclick and outclick.
+
+Mission2: create newsletter in HTML form
+Hardship - I can't get the subscription mailer to parse the confirm.html.haml instead of the confirm.erb text file. I cannot find where it is specified which view to render. Lucas informed me that in the background, Rails will render whatever name is 'confirm' so by changing the name of the text file, and specifying in the Newsletter subscription model to deliver_now instead of later, we can see the errors immediately instead of queuing it with sidekiq
+
+29th January
+Today was hard. My creating image failed on deployment and I blocked the deployment pipeline felt quite amateur.
+
+I reran and it deloyed. Just keep up the good work and move on from it.
+
+Aim: Complete the HAML DOI email - copy the formatting of the code and refactor it with the right links. Better to have the final product and backtrack
+
+keep up the testing
+
+4th Feb
+Andrei came up with a footer link problem for lab.fromatob.com we found that a few links were being redirected to columbus legacy pages. So we had two solutions:
+1. Set up components for CMS template for lab.fromatob.com with all the links
+2. Add new server under nginx.config and redirect all links from lab.de to fromabto.de
+
+I went with the second option - setting the path to = / and / which catches all other pages, then rewrite both to fromatob.de
+
+I tried to test this with nginx but had to install this then figure out the command for testing. There's already an iamge for this so I just ran
+
+`Docker build images/columbus-nginx' and it would be better than pushing to circle CI to build and fail many times.
+
+Good job for taking on Andrei's project and being not fearful of testing.
+
+5th Feb
+Happy chinese new year!!
+byebug inside rspec, subject.body inside terminal to see the content.
+
+Good to check the link has the specific URL - could see if the HTML element has the right ID to see if the URL
+
+I felt very sad about not celebrating CNY that I was always trying too hard to get people together
+
+
+ k -n mandy set image deployment/columbus nginx=fromatob/columbus-nginx:footer-githubimageandy set image deployment/col
+umbus nginx=fromatob/columbus-nginx:footer-githubimage
+
+This is for my staging
+
+6th February
+Meeting with Alex this morning going through all my Alex tasks - need more excercises before my catch up meeting next week and the evaluation the week after.
+
+Aim: Use Rails console to find the right URL which includes the token and make my damn test pass!
+No time to mope about the future. Time to activate the present and try my best
+I have taken the token out and just tested the beginning
+
+14th + 15th February
+Killing it with the small CMS tasks mainly updating gems and deleting legacy stuff - it's very satisfying. Still challenging to find exactly which assets to delete - the goal is to properly understand how everything works with each other.
+
+- Need to get those large images to Viktoria for her to downsize
+
+Task: Generating myself some cms tasks
+3-4pm - finish my own tasks to myself with some non descript weirdo thang with strange behavior - Berlin hipsters
+take_selfies
+- Expand on my own learning -
+
